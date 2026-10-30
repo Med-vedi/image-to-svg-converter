@@ -1,0 +1,23 @@
+{
+  "name": "image-to-svg-converter",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "vtracer-wasm": "^0.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^4.1.12"
+  }
+}
